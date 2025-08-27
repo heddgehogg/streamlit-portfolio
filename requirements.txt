@@ -1,3 +1,8 @@
-streamlit==1.26.0
-streamlit-option-menu==0.3.5
-Pillow==10.0.0
+# Streamlit для UI
+streamlit>=1.26.0,<2.0.0
+
+# Бокова панель меню
+streamlit-option-menu>=0.3.5,<1.0.0
+
+# Для роботи з зображеннями
+Pillow>=10.0.0,<11.0.0
