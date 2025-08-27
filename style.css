@@ -3,7 +3,7 @@
 /* ======================= */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #EEF7FF; /* світлий фон для всього сайту */
+    background-color: #FFFFFF; /* основний фон білий */
     color: #111;
 }
 
@@ -21,9 +21,9 @@ input[type=text], select, textarea {
     resize: vertical;
 }
 
-/* Submit button (якщо будуть форми) */
+/* Submit button */
 input[type=submit] {
-    background-color: #7c3aed; /* фіолетовий */
+    background-color: #a77ff2; /* пастельний фіолетовий */
     color: white;
     padding: 12px 20px;
     border: none;
@@ -55,7 +55,7 @@ header {visibility: hidden;}
 /* Sidebar Styling */
 /* ======================= */
 [data-testid="stSidebar"] {
-    background-color: #EEF7FF !important;
+    background-color: #EEF7FF !important; /* світло-блакитна бокова панель */
 }
 
 /* ======================= */
@@ -74,7 +74,7 @@ header {visibility: hidden;}
     --radius: 9999px;
     --pad: 12px 20px;
     --shadow: 0 6px 18px rgba(0,0,0,.15);
-    --grad: linear-gradient(135deg,#7c3aed, #06b6d4);
+    --grad: linear-gradient(135deg,#a77ff2, #06b6d4);
     display: inline-flex; 
     align-items: center; 
     justify-content: center;
@@ -125,6 +125,31 @@ header {visibility: hidden;}
 .chip:hover {
     background: rgba(255,255,255,.9); 
     transform: translateY(-1px);
+}
+
+/* ======================= */
+/* Custom Streamlit Selectbox */
+/* ======================= */
+
+/* Білий фон для всіх selectbox-ів */
+.css-1v3fvcr, 
+.css-1f8j6k4 {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+    padding: 8px 12px !important;
+}
+
+/* Підсвічування пунктів списку при наведенні */
+.css-1v3fvcr .css-1r6slb0 div[role="option"]:hover {
+    background-color: #60C5FF !important; /* світло-блакитний */
+}
+
+/* Підсвічування обраного пункту */
+.css-1v3fvcr .css-1r6slb0 div[role="option"][aria-selected="true"] {
+    background-color: #60C5FF !important;
+    color: #000000 !important;
 }
 
 /* ======================= */
