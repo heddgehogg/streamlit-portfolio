@@ -33,10 +33,6 @@ input[type=submit] {
     transition: transform .12s ease, box-shadow .2s ease, filter .2s ease;
 }
 
-input[type=submit]:hover {
-    background-color: #9EE6FF !important; /* блакитний при наведенні */
-}
-
 /* Form container */
 .container {
     border-radius: 5px;
