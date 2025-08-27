@@ -34,7 +34,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #06b6d4; /* блакитний при наведенні */
+    background-color: #9EE6FF !important; /* блакитний при наведенні */
 }
 
 /* Form container */
