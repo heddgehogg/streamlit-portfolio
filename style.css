@@ -3,7 +3,7 @@
 /* ======================= */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #FFFFFF; /* Основний фон сайту */
+    background-color: #EEF7FF; /* світлий фон для всього сайту */
     color: #111;
 }
 
@@ -21,16 +21,7 @@ input[type=text], select, textarea {
     resize: vertical;
 }
 
-/* Dropdown меню з білим фоном */
-select {
-    background-color: #FFFFFF !important;
-    color: #000000;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 8px 12px;
-}
-
-/* Submit button */
+/* Submit button (якщо будуть форми) */
 input[type=submit] {
     background-color: #7c3aed; /* фіолетовий */
     color: white;
@@ -62,19 +53,14 @@ header {visibility: hidden;}
 
 /* ======================= */
 /* Sidebar Styling */
+/* ======================= */
 [data-testid="stSidebar"] {
-    background-color: #FFFFFF !important; /* Білий фон бокової панелі */
-}
-
-/* Active sidebar menu item */
-[data-testid="stSidebar"] .css-1d391kg { 
-    background-color: #60C5FF !important; /* Блакитне підсвічування обраного пункту */
-    color: #000000 !important; /* Чорний текст для виділеного елемента */
-    border-radius: 8px;
+    background-color: #EEF7FF !important;
 }
 
 /* ======================= */
 /* Contact Buttons */
+/* ======================= */
 .contact-wrap {
     display: flex; 
     flex-direction: column; 
@@ -143,6 +129,7 @@ header {visibility: hidden;}
 
 /* ======================= */
 /* Additional Utility Classes */
+/* ======================= */
 .text-center {
     text-align: center;
 }
