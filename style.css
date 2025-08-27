@@ -3,7 +3,7 @@
 /* ======================= */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #FFFFFF; /* основний фон білий */
+    background-color: #EEF7FF; /* світлий фон для всього сайту */
     color: #111;
 }
 
@@ -21,9 +21,9 @@ input[type=text], select, textarea {
     resize: vertical;
 }
 
-/* Submit button */
+/* Submit button (якщо будуть форми) */
 input[type=submit] {
-    background-color: #a77ff2; /* пастельний фіолетовий */
+    background-color: #7c3aed; /* фіолетовий */
     color: white;
     padding: 12px 20px;
     border: none;
@@ -55,7 +55,7 @@ header {visibility: hidden;}
 /* Sidebar Styling */
 /* ======================= */
 [data-testid="stSidebar"] {
-    background-color: #EEF7FF !important; /* світло-блакитна бокова панель */
+    background-color: #EEF7FF !important;
 }
 
 /* ======================= */
@@ -74,7 +74,7 @@ header {visibility: hidden;}
     --radius: 9999px;
     --pad: 12px 20px;
     --shadow: 0 6px 18px rgba(0,0,0,.15);
-    --grad: linear-gradient(135deg,#a77ff2, #06b6d4);
+    --grad: linear-gradient(135deg,#7c3aed, #06b6d4);
     display: inline-flex; 
     align-items: center; 
     justify-content: center;
@@ -125,30 +125,6 @@ header {visibility: hidden;}
 .chip:hover {
     background: rgba(255,255,255,.9); 
     transform: translateY(-1px);
-}
-
-/* ======================= */
-/* Custom Streamlit Selectbox */
-/* ======================= */
-
-/* Білий фон для всіх selectbox-ів */
-div[role="listbox"] > div {
-    background-color: #FFFFFF !important; /* фон поля */
-    color: #000000 !important;           /* текст чорний */
-    border-radius: 4px !important;
-    padding: 6px 10px !important;
-}
-
-/* Підсвічування елементів при наведенні */
-div[role="option"]:hover {
-    background-color: #60C5FF !important; /* світло-блакитний */
-    color: #000000 !important;
-}
-
-/* Виділений елемент (обраний) */
-div[role="option"][aria-selected="true"] {
-    background-color: #60C5FF !important;
-    color: #000000 !important;
 }
 
 /* ======================= */
