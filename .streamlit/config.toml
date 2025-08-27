@@ -1,6 +1,6 @@
 [theme]
 primaryColor = "#a78bfa"             # Пастельний фіолетовий для активних елементів
 backgroundColor = "#FFFFFF"           # Основний фон сайту
-secondaryBackgroundColor = "#60C5FF" # Фон бокової панелі (блакитний)
+# secondaryBackgroundColor = "#60C5FF" # Фон бокової панелі (блакитний)
 textColor = "#000000"                 # Колір тексту
 font = "sans serif"                   # Шрифт
