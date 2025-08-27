@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#7c3aed"           # Фіолетовий основний колір
+backgroundColor = "#EEF7FF"        # Колір фону бокової панелі
+secondaryBackgroundColor = "#FFFFFF" # Колір контентної області
+textColor = "#000000"               # Колір тексту
+font = "sans serif"                 # Шрифт
