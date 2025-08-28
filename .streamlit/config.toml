@@ -4,3 +4,4 @@ backgroundColor = "#FFFFFF"           # Основний фон сайту
 secondaryBackgroundColor = "#EAF5FF" # Світлий спокійний блакитний для бокової панелі
 textColor = "#000000"                 # Колір тексту
 font = "sans serif"                   # Шрифт
+showSidebarNavigation = true
