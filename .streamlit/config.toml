@@ -1,9 +1,0 @@
-[theme]
-primaryColor = "#a78bfa"              # Пастельний фіолетовий для активних елементів
-backgroundColor = "#FFFFFF"           # Основний фон сайту
-secondaryBackgroundColor = "#EAF5FF"  # Світлий спокійний блакитний для бокової панелі
-textColor = "#000000"                 # Колір тексту
-font = "sans serif"                   # Шрифт
-
-[client]
-showSidebarNavigation = true
