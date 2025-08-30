@@ -53,7 +53,7 @@ if selected == 'About Me':
             st.write("🎸 In addition, I'm into guitar playing, music, gym, running, video games, and books... A-a-and enjoy eating good food in my free time!")
             st.write("👩🏻‍💻 Academic interests: Data Visualization, Market Basket Analysis, Recommendation Systems, Natural Language Processing")
             st.write("💭 Ideal Career Prospects: Data Analyst, Data Scientist, Data Engineer, Business Intelligence Analyst, Product Manager")
-            st.write("📄 [Resume ](https://drive.google.com/file/d/1x4FLEOxQfWFZnTcVMyO_2l1_Zzu_Ndn3/view?usp=sharing)")
+            st.write("📄 [Resume ](https://drive.google.com/file/d/1HAfQKuOPKRg5IoM1KpUyj5dSIbUO4Vdn/view?usp=sharing)")
         with middle_column:
             st.empty()
         with right_column:
